@@ -1,1 +1,5 @@
-����react,antd,echarts�Ĳ��ֺ�ͼ����Ⱦ,ͼ���Ŀ���ѡ��echarts������ͼ����������ѡ��echarts, ����������test.js�� component���Կ��Դ��ͼ�������л�������,������ѡ����״ͼ�ͱ�ͼĬ�ϵ����� height����֧�̶ֹ��߶ȺͰٷֱ��Լ�calc���� ע��:��row�����ø߶�;��Ϊ���ڱ߾��ԭ��,row�ĸ߶�֮��Ҫ�����ĸ߶ȼ�С10px
+基于react,antd,echarts的布局和图表渲染,图表的可以选择echarts或其他图表，本例是选择echarts
+测试数据在test.js中 
+component属性可以存放图表数据中或者类型,本例是选择柱状图和饼图默认的配置 
+height属性支持固定高度和百分比以及calc计算 
+注意:在row中设置高度;因为有内边距的原因,row的高度之和要比外框的高度减小10px
